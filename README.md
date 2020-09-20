@@ -1,6 +1,11 @@
 # Ising-notes
 Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 
+### Problem Formulation (Now)  
+* What are you trying to solve? The alignment between hierarchies? Why is that an issue?  
+* How can you demonstrate that this is a problem? Consider a toy problem and run tests on it. Identify the failure case arising due to hierarchies.  
+* Upto what degree will the toy problem be significant to real world problems. A closer link between them is essential to convince the community.  
+
 ### Literature Draft (September)  
 * Literature Review(3+ pages for Hierarchical Reinforcement Learning)  
 * Review of Physics papers on Ising Simulations (3+ pages, it needs to be written in an intuitive way)  
