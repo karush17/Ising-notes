@@ -4,12 +4,12 @@ Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 ### Literature Draft (September)  
 - [x] Literature Review(3+ pages for Hierarchical Reinforcement Learning)  
 - [x] Review of Physics papers on Ising Simulations (3+ pages, it needs to be written in an intuitive way)  
-- [ ] Introduction and Strenghts/Weaknesses of various approaches (not much work is done here so elaborate)  
+- [x] Introduction and Strenghts/Weaknesses of various approaches (not much work is done here so elaborate)  
 - [ ] Short blog summarizing the capabilities of Ising Models  
 
 ### Intuition of Ising Models (October)  
 - [ ] Intuition behind Ising Models- A deeper intuition is required from layman's point of view. Explaining the algorithm and findings may not help as the community is not aware of Ising Models. A seperate section on Intuition is essential for this purpose.  
-- [ ] Illustrations of the model with proper reasoning for its usage, strenghts and weaknesses is essential.  
+- [ ] Illustrations of the model with proper reasoning for its usage, strengths and weaknesses is essential.  
 
 ### Theoretical Treatment (October-December)  
 - [ ] Mathematical justification of the model and its use in RL is essential.  
