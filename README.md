@@ -1,11 +1,6 @@
 # Ising-notes
 Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 
-### Problem Formulation (Now)  
-- [ ] What are you trying to solve? The alignment between hierarchies? Why is that an issue?  
-- [ ] How can you demonstrate that this is a problem? Consider a toy problem and run tests on it. Identify the failure case arising due to hierarchies.  
-- [ ] Upto what degree will the toy problem be significant to real world problems. A closer link between them is essential to convince the community.  
-
 ### Literature Draft (September)  
 - [x] Literature Review(3+ pages for Hierarchical Reinforcement Learning)  
 - [x] Review of Physics papers on Ising Simulations (3+ pages, it needs to be written in an intuitive way)  
@@ -16,7 +11,7 @@ Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 - [ ] Intuition behind Ising Models- A deeper intuition is required from layman's point of view. Explaining the algorithm and findings may not help as the community is not aware of Ising Models. A seperate section on Intuition is essential for this purpose.  
 - [ ] Illustrations of the model with proper reasoning for its usage, strenghts and weaknesses is essential.  
 
-### Theoretical Treatment (December-January)  
+### Theoretical Treatment (October-December)  
 - [ ] Mathematical justification of the model and its use in RL is essential.  
 - [ ] Answer the following-  
   - [ ] Can the change in spin states quantify the change in decision/energy? More specifically, the system reaches thermal equilibrium with zero energy occuring from spins.  
@@ -25,9 +20,14 @@ Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
   - [ ] What happens in the case of infinite hierarchcies? This is important since most practical problems consist of long sequences of hierarchies. Theoretically, the system must settle to thermal equilibrium at infinity as the large number of spin states lead to frequent disagreements and changes in spin values. [Quantify this]  
   - [ ] What is the net information gained by the system from minimizing disagreements? [Information Theory]  
 
-### Minority Draft (November-December)  
+### Minority Draft (December)  
 - [ ] Keep logging all information in the master file.  
 - [ ] Literature Review, Ising Model epxlanation, intuition of spin values, Theoritical analysis, baseline implementation details, all baseline results.  
+
+### Problem Formulation (NA)  
+- [ ] What are you trying to solve? The alignment between hierarchies? Why is that an issue?  
+- [ ] How can you demonstrate that this is a problem? Consider a toy problem and run tests on it. Identify the failure case arising due to hierarchies.  
+- [ ] Upto what degree will the toy problem be significant to real world problems. A closer link between them is essential to convince the community.  
 
 ### Toy Implementation (NA)  
 - [ ] Test on a toy problem (Mazelab and custom Gridworlds are a good choice)  
