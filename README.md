@@ -12,15 +12,15 @@ Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 - [ ] Illustrations of the model with proper reasoning for its usage, strengths and weaknesses is essential.  
 
 ### Theoretical Treatment (October-December)  
-- [ ] Mathematical justification of the model and its use in RL is essential.  
+- [x] Mathematical justification of the model and its use in RL is essential.  
 - [ ] Answer the following-  
   - [ ] How does the system scale at critical temperature Tc?
-  - [ ] Does adding more hierarchies motivate Information extraction?
-  - [ ] Can the change in spin states quantify the change in decision/energy? More specifically, the system reaches thermal equilibrium with zero energy occuring from spins.  
+  - [ ] Does adding more hierarchies motivate Information extraction? (Compare information between lowest and highest levels after extending the hierarchy and obtain a bound)  
+  - [x] Can the change in spin states quantify the change in decision/energy? More specifically, the system reaches thermal equilibrium with zero energy occuring from spins.  
   - [x] Does the system converge to an optimal policy? If yes then is the optimal policy the one with minimum disagreements?  
   - [ ] How does the system guarantee to minimize disagreeements?  
-  - [x] What happens in the case of infinite hierarchcies? This is important since most practical problems consist of long sequences of hierarchies. Theoretically, the system must settle to thermal equilibrium at infinity as the large number of spin states lead to frequent disagreements and changes in spin values. [Quantify this]  
-  - [ ] What is the net information gained by the system from minimizing disagreements? [Information Theory]  
+  - [x] What happens in the case of infinite hierarchcies? This is important since most practical problems consist of long sequences of hierarchies. Theoretically, the system must settle to thermal equilibrium at infinity as the large number of spin states lead to frequent disagreements and changes in spin values.  
+  - [ ] What is the net information gained by the system from minimizing disagreements?  
 
 ### Minority Draft (December)  
 - [ ] Keep logging all information in the master file.  
