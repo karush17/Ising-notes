@@ -14,10 +14,11 @@ Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 ### Theoretical Treatment (October-December)  
 - [ ] Mathematical justification of the model and its use in RL is essential.  
 - [ ] Answer the following-  
+  - [ ] Does adding more hierarchies motivate Information extraction?
   - [ ] Can the change in spin states quantify the change in decision/energy? More specifically, the system reaches thermal equilibrium with zero energy occuring from spins.  
-  - [ ] Does the system converge to an optimal policy? If yes then is the optimal policy the one with minimum disagreements?  
+  - [x] Does the system converge to an optimal policy? If yes then is the optimal policy the one with minimum disagreements?  
   - [ ] How does the system guarantee to minimize disagreeements?  
-  - [ ] What happens in the case of infinite hierarchcies? This is important since most practical problems consist of long sequences of hierarchies. Theoretically, the system must settle to thermal equilibrium at infinity as the large number of spin states lead to frequent disagreements and changes in spin values. [Quantify this]  
+  - [x] What happens in the case of infinite hierarchcies? This is important since most practical problems consist of long sequences of hierarchies. Theoretically, the system must settle to thermal equilibrium at infinity as the large number of spin states lead to frequent disagreements and changes in spin values. [Quantify this]  
   - [ ] What is the net information gained by the system from minimizing disagreements? [Information Theory]  
 
 ### Minority Draft (December)  
