@@ -14,6 +14,7 @@ Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 ### Theoretical Treatment (October-December)  
 - [ ] Mathematical justification of the model and its use in RL is essential.  
 - [ ] Answer the following-  
+  - [ ] How does the system scale at critical temperature Tc?
   - [ ] Does adding more hierarchies motivate Information extraction?
   - [ ] Can the change in spin states quantify the change in decision/energy? More specifically, the system reaches thermal equilibrium with zero energy occuring from spins.  
   - [x] Does the system converge to an optimal policy? If yes then is the optimal policy the one with minimum disagreements?  
