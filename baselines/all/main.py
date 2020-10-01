@@ -169,10 +169,13 @@ def main():
         if (j % args.save_interval == 0
                 or j == num_updates - 1) and args.save_dir != "":
             save_path = os.path.join(args.save_dir, args.algo)
-            data_save = {}
-            data_save['episode_reward'] = rewards
-            with open('data'+str(args.seed)+'.pkl', 'wb') as f: #data+same as frame folder
-                pickle.dump(data_save, f)
+            if os.path.exists(str(args.env_name)+"/v"+str(args.seed+1)+"/"):
+                data_save = {}
+                data_save['episode_reward'] = rewards
+                with open(str(args.env_name)+"/v"+str(args.seed+1)+'/data.pkl', 'wb') as f: #data+same as frame folder
+                    pickle.dump(data_save, f)
+            else:
+                os.makedirs(str(args.env_name)+"/v"+str(args.seed+1)+"/")
             try:
                 os.makedirs(save_path)
             except OSError:
