@@ -1,5 +1,5 @@
 # Ising-notes
-Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
+Notes on Ising Networks for Deep Hierarchical Reinforcement Learning
 
 ### Literature Draft (September)  
 - [x] Literature Review(3+ pages for Hierarchical Reinforcement Learning)  
