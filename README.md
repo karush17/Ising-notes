@@ -5,11 +5,11 @@ Notes on Ising Networks for Deep Hierarchcical Reinforcement Learning
 - [x] Literature Review(3+ pages for Hierarchical Reinforcement Learning)  
 - [x] Review of Physics papers on Ising Simulations (3+ pages, it needs to be written in an intuitive way)  
 - [x] Introduction and Strenghts/Weaknesses of various approaches (not much work is done here so elaborate)  
-- [ ] Short blog summarizing the capabilities of Ising Models  
+- [x] Short blog summarizing the capabilities of Ising Models  
 
 ### Blogs (September-November)
- - [ ] Two blogs consisting of (1) introduction to Ising models and their funtioning and (2) the usage of Ising Networks in Deep Hierarchical Reinforcement Learning  
- - [ ] (1) Blog should contain the basic functioning and explanation of Ising models, their fundamental math, diagrams of structures (drawn) and their working in 1D. (This blog is to provide the reader with the background for Ising Networks)
+ - [x] Two blogs consisting of (1) introduction to Ising models and their funtioning and (2) the usage of Ising Networks in Deep Hierarchical Reinforcement Learning  
+ - [x] (1) Blog should contain the basic functioning and explanation of Ising models, their fundamental math, diagrams of structures (drawn) and their working in 1D. (This blog is to provide the reader with the background for Ising Networks)
  - [ ] (2) Blog should highlight Ising Networks, their structures, functioning, advantages and results. (This is official blog for the project)
  
 ### Intuition of Ising Models (October)  
