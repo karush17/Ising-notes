@@ -1,9 +1,9 @@
-PWD c:/Users/Karush Suri/Desktop/Ising/Ising-notes
+PWD c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc
 INPUT k:/texlive/2020/texmf.cnf
 INPUT k:/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT k:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.tex
-OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.log
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.tex
+OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.log
 INPUT k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -532,10 +532,10 @@ INPUT k:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT k:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT k:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT k:/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.aux
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.aux
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.aux
-OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.aux
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux
+OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux
 INPUT k:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT k:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT k:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -602,18 +602,18 @@ INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.pdf
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
 INPUT k:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -667,13 +667,13 @@ INPUT k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.bbl
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.bbl
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.bbl
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.bbl
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.aux
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
