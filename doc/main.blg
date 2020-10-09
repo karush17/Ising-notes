@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: abbrv.bst
+Database file #1: main.bib
+Warning--I didn't find a database entry for "nash"
+Warning--I didn't find a database entry for "mellowmax"
+Warning--empty journal in smirl
+Warning--empty booktitle in ac
+Warning--empty publisher in language
+Warning--empty journal in scaling
+Warning--empty publisher in maven
+Warning--empty publisher in exact
+Warning--empty publisher in sutton
+Warning--empty booktitle in mujoco
+Warning--empty journal in stats
+You've used 82 entries,
+            2118 wiz_defined-function locations,
+            815 strings with 16726 characters,
+and the built_in function-call counts, 25608 in all, are:
+= -- 2155
+> -- 1897
+< -- 1
++ -- 756
+- -- 666
+* -- 1691
+:= -- 4504
+add.period$ -- 216
+call.type$ -- 82
+change.case$ -- 575
+chr.to.int$ -- 0
+cite$ -- 91
+duplicate$ -- 829
+empty$ -- 1797
+format.name$ -- 666
+if$ -- 5131
+int.to.chr$ -- 0
+int.to.str$ -- 82
+missing$ -- 53
+newline$ -- 380
+num.names$ -- 164
+pop$ -- 835
+preamble$ -- 1
+purify$ -- 497
+quote$ -- 0
+skip$ -- 646
+stack$ -- 0
+substring$ -- 440
+swap$ -- 116
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 320
+warning$ -- 9
+while$ -- 165
+width$ -- 84
+write$ -- 758
+(There were 11 warnings)
