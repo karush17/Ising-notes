@@ -254,6 +254,12 @@ X.~B. Peng, M.~Chang, G.~Zhang, P.~Abbeel, and S.~Levine.
 \newblock Mcp: Learning composable hierarchical control with multiplicative
   compositional policies, 2019.
 
+\bibitem{lipschitz}
+A.~Pensia, V.~Jog, and P.-L. Loh.
+\newblock Generalization error bounds for noisy, iterative algorithms.
+\newblock In {\em 2018 IEEE International Symposium on Information Theory
+  (ISIT)}, 2018.
+
 \bibitem{temp}
 D.~Precup.
 \newblock Temporal abstraction in reinforcement learning, 2000.

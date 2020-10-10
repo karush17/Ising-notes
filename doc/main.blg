@@ -14,45 +14,45 @@ Warning--empty publisher in exact
 Warning--empty publisher in sutton
 Warning--empty booktitle in mujoco
 Warning--empty journal in stats
-You've used 82 entries,
+You've used 83 entries,
             2118 wiz_defined-function locations,
-            815 strings with 16726 characters,
-and the built_in function-call counts, 25608 in all, are:
-= -- 2155
-> -- 1897
+            819 strings with 16901 characters,
+and the built_in function-call counts, 25911 in all, are:
+= -- 2180
+> -- 1915
 < -- 1
-+ -- 756
-- -- 666
-* -- 1691
-:= -- 4504
-add.period$ -- 216
-call.type$ -- 82
-change.case$ -- 575
++ -- 763
+- -- 672
+* -- 1709
+:= -- 4555
+add.period$ -- 219
+call.type$ -- 83
+change.case$ -- 581
 chr.to.int$ -- 0
-cite$ -- 91
-duplicate$ -- 829
-empty$ -- 1797
-format.name$ -- 666
-if$ -- 5131
+cite$ -- 92
+duplicate$ -- 843
+empty$ -- 1825
+format.name$ -- 672
+if$ -- 5195
 int.to.chr$ -- 0
-int.to.str$ -- 82
-missing$ -- 53
-newline$ -- 380
-num.names$ -- 164
-pop$ -- 835
+int.to.str$ -- 83
+missing$ -- 54
+newline$ -- 385
+num.names$ -- 166
+pop$ -- 845
 preamble$ -- 1
-purify$ -- 497
+purify$ -- 502
 quote$ -- 0
-skip$ -- 646
+skip$ -- 653
 stack$ -- 0
-substring$ -- 440
-swap$ -- 116
+substring$ -- 445
+swap$ -- 118
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 320
+type$ -- 324
 warning$ -- 9
-while$ -- 165
-width$ -- 84
-write$ -- 758
+while$ -- 167
+width$ -- 85
+write$ -- 768
 (There were 11 warnings)
