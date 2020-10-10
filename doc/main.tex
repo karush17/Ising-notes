@@ -214,7 +214,11 @@ We select StarCraft II scenarios particularly for three reasons. Firstly, microm
 \begin{proof}
     The proof begins with the policy gradient consisting of the spin-spin interactions,
     \begin{gather}
-        ksd
+        \nabla_{\theta}J(\theta) = \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})))] + \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] \nonumber
+    \end{gather}
+    Evaluating the gradient of the spin-spin interaction term, we get,
+    \begin{gather}
+        
     \end{gather}
 \end{proof}
 
