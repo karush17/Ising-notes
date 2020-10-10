@@ -218,7 +218,8 @@ We select StarCraft II scenarios particularly for three reasons. Firstly, microm
     \end{gather}
     Evaluating the gradient of the spin-spin interaction term, we get,
     \begin{gather}
-        \nabla_{\theta} \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\sigma^{\pi_{i}}\sigma^{\pi_{j}}] \nonumber
+        \nabla_{\theta} \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\sigma^{\pi_{i}}\sigma^{\pi_{j}}] \nonumber \\
+        = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\pi_{i}}\sigma^{\pi_{i}}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\pi_{j}}\sigma^{\pi_{j}}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber
     \end{gather}
 
 \end{proof}
