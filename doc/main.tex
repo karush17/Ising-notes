@@ -205,6 +205,16 @@ We select StarCraft II scenarios particularly for three reasons. Firstly, microm
     This indicates that $\tilde{\pi}(a_{t}|s_{t}) \geq \pi(a_{t}|s_{t})$ which completes the proof.
 \end{proof}
 
+\begin{prop}{4}\label{four}
+    Gradient of the Ising spin $\sigma^{\pi_{i}}$ for any two levels $h_{i}$ and $h_{j}$ in the hierarchy $H$ simplifies the policy gradient to 
+    \begin{gather}
+        \nabla_{\theta}J(\theta) = 
+    \end{gather}
+\end{prop}
+\begin{proof}
+    Consider a level in the hierarchy $h_{i} \in H, \forall i \in \{1,2,...,N\}$. Clearly, the level $h_{i}$ can acquire a total of $M$ possible spin states. Applying this to all $N$ levels, we get $M \times M... N times$ as $|H| = N$, which is equal to $M^{N}$.  
+\end{proof}
+
 
 \bibliographystyle{abbrv} 
 \bibliography{main}
