@@ -208,9 +208,9 @@ We select StarCraft II scenarios particularly for three reasons. Firstly, microm
 \begin{prop}{4}\label{four}
     Policy gradient of the Ising spin objective consisting of $\sigma^{\pi_{i}}$  and $\sigma^{\pi_{i}}$ for any two levels $h_{i}$ and $h_{j}$ in the hierarchy $H$ with policies $\pi^{\theta}_{i}(a_{t}|s_{t})$ and $\pi^{\theta}_{j}(a_{t}|s_{t})$ respectively is bounded by the following 
     \begin{gather}
-        \nabla_{\theta}J(\theta) = \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})) + \underset{a_{t} \sim \pi}{\textbf{E}}[\sigma^{\pi_{i}}\sigma^{\pi_{j}}])] \nonumber
+        \nabla_{\theta}J(\theta) \leq \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})) + 2L\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber
     \end{gather}
-    Here, $\pi^{\theta}_{*}(a_{t}|s_{t})$ is the optimal policy adopted by the hierarchy at convergence.
+    Here, $L$ is a Liepscheitz constant and $\pi^{\theta}_{*}(a_{t}|s_{t})$ is the optimal policy adopted by the hierarchy at convergence.
 \end{prop}
 \begin{proof}
     The proof begins with the policy gradient consisting of the spin-spin interactions,
