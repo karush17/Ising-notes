@@ -667,6 +667,11 @@ INPUT k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
 INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
 INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
@@ -676,6 +681,7 @@ INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
 INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
