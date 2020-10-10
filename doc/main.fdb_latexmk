@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex main"] 1602349719 "main.aux" "main.bbl" "main" 1602349879
+["bibtex main"] 1602349719 "main.aux" "main.bbl" "main" 1602350044
   "k:/texlive/2020/texmf-dist/bibtex/bst/base/abbrv.bst" 1602112780 20329 b5fed53e10044d0f8112183785c759b1 ""
-  "main.aux" 1602349877 8642 1a9462053283872e928c50a6e307ccc9 "pdflatex"
+  "main.aux" 1602350042 8642 1a9462053283872e928c50a6e307ccc9 "pdflatex"
   "main.bib" 1602273305 20298 310694f0b4b714f75f99b1c34cf8da85 ""
   (generated)
-  "main.blg"
   "main.bbl"
-["pdflatex"] 1602349875 "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.tex" "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" "main" 1602349879
-  "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux" 1602349877 8642 1a9462053283872e928c50a6e307ccc9 ""
-  "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.tex" 1602349873 36031 ed355972b68ce1b35a2fb84d57db1773 ""
+  "main.blg"
+["pdflatex"] 1602350039 "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.tex" "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" "main" 1602350044
+  "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux" 1602350042 8642 1a9462053283872e928c50a6e307ccc9 ""
+  "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.tex" 1602350038 36042 c0e52886768d890f37fcfcf5139e2436 ""
   "k:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1602113504 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "k:/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1602113265 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "k:/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1602112628 1004 54797486969f23fa377b128694d548df ""
@@ -133,14 +133,14 @@
   "k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1602115890 5062763 7a53a10380656550343c994a10f7e0d4 ""
   "k:/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1602122502 2535209 4886ada57fdae792f73dace42a79ad61 ""
   "k:/texlive/2020/texmf.cnf" 1602115852 673 4ae7b2f49cee444c5343a45b5d0f169c ""
-  "main.aux" 1602349877 8642 1a9462053283872e928c50a6e307ccc9 "pdflatex"
+  "main.aux" 1602350042 8642 1a9462053283872e928c50a6e307ccc9 "pdflatex"
   "main.bbl" 1602349720 14787 3cb3191379d099eaed2b9097406e22d3 "bibtex main"
-  "main.out" 1602349877 1631 a23152317c8043bb3389b48a1744d5b8 "pdflatex"
-  "main.tex" 1602349873 36031 ed355972b68ce1b35a2fb84d57db1773 ""
+  "main.out" 1602350042 1631 a23152317c8043bb3389b48a1744d5b8 "pdflatex"
+  "main.tex" 1602350038 36042 c0e52886768d890f37fcfcf5139e2436 ""
   (generated)
-  "main.log"
-  "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf"
   "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.log"
-  "main.aux"
   "main.out"
+  "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf"
   "main.pdf"
+  "main.aux"
+  "main.log"
