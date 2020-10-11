@@ -222,27 +222,27 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
 
     The proof begins with the policy gradient consisting of the spin-spin interactions,
     \begin{gather}
-        \nabla_{\theta}J(\theta) = \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})))] + \nabla_{\theta}\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] \label{eq:grad}
+        \nabla_{\theta}J(\theta) = \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})))] + \nabla_{\theta}\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] \label{eq:grad}
     \end{gather}
     Evaluating the gradient of the spin-spin interaction term, we get,
     \begin{gather}
-        \nabla_{\theta} \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\sigma^{\pi_{i}}\sigma^{\pi_{j}}] \nonumber \\
-        = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\pi_{i}}\sigma^{\pi_{i}}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\pi_{j}}\sigma^{\pi_{j}}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber
+        \nabla_{\theta} \underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] = \underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\sigma^{\pi_{i}}\sigma^{\pi_{j}}] \nonumber \\
+        = \underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\pi_{i}}\sigma^{\pi_{i}}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\pi_{j}}\sigma^{\pi_{j}}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber
     \end{gather}
     We now use the Lipschitz assumption in Assumption \autoref{assum} to bound $\nabla_{\pi_{i}}\sigma^{\pi_{i}} \leq L$ for some $L > 0$. This leads to the following,
     \begin{gather}
-        \leq \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} L\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} L\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\
-        = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
+        \leq \underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} L\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} L\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\
+        = L\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
     \end{gather}
     Moreover, we know that the spins $\sigma^{\pi_{i}},\sigma^{\pi_{j}} \in \{-1,1\}$ which indicates that $|\sigma^{\pi_{i}}|=1$ and $|\sigma^{\pi_{j}}|=1$.
     \begin{gather}
-        \leq L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} |\sigma^{\pi_{j}}| \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + |\sigma^{\pi_{i}}| \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\       
-        = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
+        \leq L\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} |\sigma^{\pi_{j}}| \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + |\sigma^{\pi_{i}}| \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\       
+        = L\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
     \end{gather}
     The expression obtained allows us to construct the log policy gradients $\nabla_{\theta}\log\pi^{\theta}_{i}(a_{t}|s_{t})$ and $\nabla_{\theta}\log\pi^{\theta}_{j}(a_{t}|s_{t})$,
     \begin{gather}
-        \leq L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{i}(a_{t}|s_{t})\frac{1}{\pi^{\theta}_{i}(a_{t}|s_{t})}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \pi^{\theta}_{j}(a_{t}|s_{t})\frac{1}{\pi^{\theta}_{j}(a_{t}|s_{t})}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\       
-        = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{i}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{i}(a_{t}|s_{t}) + \pi^{\theta}_{j}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
+        \leq L\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{i}(a_{t}|s_{t})\frac{1}{\pi^{\theta}_{i}(a_{t}|s_{t})}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \pi^{\theta}_{j}(a_{t}|s_{t})\frac{1}{\pi^{\theta}_{j}(a_{t}|s_{t})}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\       
+        = L\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{i}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{i}(a_{t}|s_{t}) + \pi^{\theta}_{j}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
     \end{gather}
     Since all levels in the hierarchy $H$ solve the same task, upon convergence of the system to the optimal policy $\pi^{\theta}_{*}(a_{t}|s_{t})$, policy distributions of each level would exhibit the same optimal convergence properties. This leads to safely conclude that each level in the hierarchy converges to an optimal policy such that $\pi^{\theta}_{1}(a_{t}|s_{t}) = \pi^{\theta}_{2}(a_{t}|s_{t}) = ...\pi^{\theta}_{N}(a_{t}|s_{t}) = \pi^{\theta}_{*}(a_{t}|s_{t})$. Thus, $\pi^{\theta}_{i}(a_{t}|s_{t}) = \pi^{\theta}_{j}(a_{t}|s_{t}) = \pi^{\theta}_{*}(a_{t}|s_{t}), \forall i,j \in \{1,2,...N\}$.
     \begin{gather}
