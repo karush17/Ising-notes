@@ -229,9 +229,10 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
         \nabla_{\theta} \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\sigma^{\pi_{i}}\sigma^{\pi_{j}}] \nonumber \\
         = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\pi_{i}}\sigma^{\pi_{i}}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\pi_{j}}\sigma^{\pi_{j}}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber
     \end{gather}
-    We now use the Lipschitz assumption in \autoref{assum} to approximate $\nabla_{\theta}\sigma_^{\pi_{i}} \leq L$. This leads to the following,
+    We now use the Lipschitz assumption in Assumption \autoref{assum} to bound $\nabla_{\pi_{i}}\sigma^{\pi_{i}} \leq L$ for some $L > 0$. This leads to the following,
     \begin{gather}
-        lnln
+        \leq \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} L\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} L\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\
+        = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
     \end{gather}
 
 \end{proof}

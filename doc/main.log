@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  11 OCT 2020 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  11 OCT 2020 16:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -421,7 +421,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count304
 \l__pdf_internal_box=\box100
-) (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux)
+) (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux
+
+LaTeX Warning: Label `eq:3' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -495,6 +499,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
+ (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out) (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -510,16 +515,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (k:/texlive/2020/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-
-LaTeX Warning: Citation `sutton' on page 1 undefined on input line 57.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
-
-
-LaTeX Warning: Citation `sutton' on page 1 undefined on input line 59.
 
 
 LaTeX Warning: Command \textquotesingle invalid in math mode on input line 59.
@@ -537,42 +535,6 @@ LaTeX Warning: Command \textquotesingle invalid in math mode on input line 59.
 LaTeX Warning: Citation `nash' on page 1 undefined on input line 59.
 
 
-LaTeX Warning: Citation `hdqn' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `dsn' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `temp' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `sutton' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `hdqn' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `dsn' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `learningtemp' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `stochastic' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `utility' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `maven' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `self' on page 1 undefined on input line 67.
-
-
-LaTeX Warning: Citation `hippo' on page 1 undefined on input line 67.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -580,447 +542,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 [1
 
 {k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `program' on page 2 undefined on input line 69.
-
-
-LaTeX Warning: Citation `language' on page 2 undefined on input line 69.
-
-
-LaTeX Warning: Citation `maxq' on page 2 undefined on input line 69.
-
-
-LaTeX Warning: Citation `lifelong' on page 2 undefined on input line 69.
-
-
-LaTeX Warning: Citation `evolutionary' on page 2 undefined on input line 69.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[2]
-
-LaTeX Warning: Citation `sutton' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `option' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `option' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `termination' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `doubleoption' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `soac' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `soac' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `sac' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `sql' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `mpc' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `advantage' on page 3 undefined on input line 72.
-
-
-LaTeX Warning: Citation `control' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `hippo' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `control' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `quadruped' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `diversity' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `lsp' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `lsp' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `embedding' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `kl' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `compositional' on page 3 undefined on input line 75.
-
-
-LaTeX Warning: Citation `combinatorial' on page 3 undefined on input line 75.
-
-[3]
-
-LaTeX Warning: Citation `energy' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `curl' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `rad' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `energy-rl' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `david' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `overcomplete' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `ac' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `sql' on page 4 undefined on input line 79.
-
+[2] [3]
 
 LaTeX Warning: Citation `mellowmax' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `emix' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `emix' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `inverse' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `energy-hier' on page 4 undefined on input line 79.
-
-
-LaTeX Warning: Citation `intro' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `spin' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `intro' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `ising-energy' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `intro' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `spin' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `ising-energy' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `scaling' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `scaling' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `ising-energy' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `field' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `field' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `convergence' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `fast' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `fast' on page 4 undefined on input line 82.
-
-
-LaTeX Warning: Citation `exact' on page 4 undefined on input line 82.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[4]
-
-LaTeX Warning: Citation `learn-critic' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `learn-param' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `learn-critic' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `learn-param' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `rbm' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `real' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `real' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `transform' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `real' on page 5 undefined on input line 84.
-
-
-LaTeX Warning: Citation `transform' on page 5 undefined on input line 84.
-
-[5]
-
-LaTeX Warning: Citation `intro' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `spin' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `scaling' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `intro' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `ising-energy' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `spin' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `field' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `book' on page 6 undefined on input line 87.
-
-
-LaTeX Warning: Citation `thompson' on page 6 undefined on input line 92.
-
-
-LaTeX Warning: Citation `energy' on page 6 undefined on input line 92.
-
-
-LaTeX Warning: Reference `eq:1' on page 6 undefined on input line 92.
-
-[6]
-
-LaTeX Warning: Citation `book' on page 7 undefined on input line 96.
-
-
-LaTeX Warning: Reference `eq:2' on page 7 undefined on input line 96.
-
-
-LaTeX Warning: Citation `david' on page 7 undefined on input line 96.
-
-
-LaTeX Warning: Citation `stats' on page 7 undefined on input line 100.
-
-
-LaTeX Warning: Citation `thompson' on page 7 undefined on input line 104.
-
-
-LaTeX Warning: Reference `eq:4' on page 7 undefined on input line 104.
-
-
-LaTeX Warning: Reference `eq:4' on page 7 undefined on input line 108.
-
-
-LaTeX Warning: Citation `exact' on page 7 undefined on input line 108.
-
-
-LaTeX Warning: Citation `transform' on page 7 undefined on input line 108.
-
-
-LaTeX Warning: Citation `overcomplete' on page 7 undefined on input line 108.
-
-[7]
-
-LaTeX Warning: Citation `mujoco' on page 8 undefined on input line 122.
-
-
-LaTeX Warning: Citation `dm' on page 8 undefined on input line 122.
-
-
-LaTeX Warning: Citation `dm' on page 8 undefined on input line 122.
-
-
-LaTeX Warning: Citation `dreamer' on page 8 undefined on input line 122.
-
-
-LaTeX Warning: Citation `rad' on page 8 undefined on input line 122.
-
-
-LaTeX Warning: Citation `curl' on page 8 undefined on input line 122.
-
-
-LaTeX Warning: Citation `sac' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `esac' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `esac' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `sac' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `td3' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `ddpg' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `ppo' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `es' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `gym' on page 8 undefined on input line 125.
-
-
-LaTeX Warning: Citation `es' on page 8 undefined on input line 127.
-
-
-LaTeX Warning: Citation `td3' on page 8 undefined on input line 127.
-
-
-LaTeX Warning: Citation `sac' on page 8 undefined on input line 127.
-
-
-LaTeX Warning: Citation `esac' on page 8 undefined on input line 127.
-
-
-LaTeX Warning: Citation `ppo' on page 8 undefined on input line 127.
-
-
-LaTeX Warning: Citation `baselines' on page 8 undefined on input line 127.
-
-
-LaTeX Warning: Citation `vb' on page 8 undefined on input line 127.
-
-
-LaTeX Warning: Citation `relu' on page 8 undefined on input line 127.
-
-[8]
-
-LaTeX Warning: Citation `sacae' on page 9 undefined on input line 132.
-
-
-LaTeX Warning: Citation `curl' on page 9 undefined on input line 132.
-
-
-LaTeX Warning: Citation `sacae' on page 9 undefined on input line 134.
-
-
-LaTeX Warning: Citation `gym' on page 9 undefined on input line 139.
-
-
-LaTeX Warning: Citation `mazelab' on page 9 undefined on input line 139.
-
-
-LaTeX Warning: Citation `rainbow' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Citation `rainbow' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Citation `rainbow' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Citation `a2c' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Citation `ppo' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Citation `acktr' on page 9 undefined on input line 142.
-
-
-LaTeX Warning: Citation `curl' on page 9 undefined on input line 144.
-
-
-LaTeX Warning: Citation `kostrikov' on page 9 undefined on input line 144.
-
-
-LaTeX Warning: Citation `baselines' on page 9 undefined on input line 144.
-
-
+[4] [5] [6] [7] [8]
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 [9]
-
-LaTeX Warning: Citation `emix' on page 10 undefined on input line 157.
-
-
-LaTeX Warning: Citation `qmix' on page 10 undefined on input line 157.
-
-
-LaTeX Warning: Citation `vdn' on page 10 undefined on input line 157.
-
-
-LaTeX Warning: Citation `coma' on page 10 undefined on input line 157.
-
-
-LaTeX Warning: Citation `iql' on page 10 undefined on input line 157.
-
-
-LaTeX Warning: Citation `smirl' on page 10 undefined on input line 157.
-
-
-LaTeX Warning: Citation `smac' on page 10 undefined on input line 157.
-
-
-LaTeX Warning: Citation `gen' on page 10 undefined on input line 157.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
 [10]
-
-LaTeX Warning: Reference `eq:5' on page 11 undefined on input line 180.
-
-
-LaTeX Warning: Reference `eq:5' on page 11 undefined on input line 184.
-
-
-LaTeX Warning: Reference `eq:6' on page 11 undefined on input line 184.
-
-
 Overfull \hbox (13.82219pt too wide) in paragraph at lines 194--195
 [][]\OT1/cmr/bx/n/10 Proposition 3. []\OT1/cmr/m/it/10 (-20) For a given agent with $\OML/cmm/m/it/10 N$ \OT1/cmr/m/it/10 (-20) lev-els in the hi-er-ar-chy $\OML/cmm/m/it/10 H \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 h[]; h[]; ::; h[]\OMS/cmsy/m/n/10 g$
  []
-
-
-LaTeX Warning: Citation `sql' on page 11 undefined on input line 197.
 
 
 Overfull \hbox (4.19792pt too wide) detected at line 206
@@ -1033,62 +581,32 @@ Overfull \hbox (16.4702pt too wide) detected at line 214
  []
 
 
-LaTeX Warning: Citation `lipschitz' on page 12 undefined on input line 217.
+Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 232.
 
+(c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl [12] [13] [14] [15] [16] [17]) [18] (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux)
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A23152317C8043BB3389B48A1744D5B8;1631.
 
-LaTeX Warning: Reference `assum' on page 12 undefined on input line 232.
-
-c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.tex:232: Missing { inserted.
-<to be read again> 
-                   ^
-l.232 ...} to approximate $\nabla_{\theta}\sigma_^
-                                                  {\pi_{i}} \leq L$. This le...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.tex:232: Missing } inserted.
-<inserted text> 
-                }
-l.232 ...$\nabla_{\theta}\sigma_^{\pi_{i}} \leq L$
-                                                  . This leads to the follow...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-No file main.bbl.
-[12] (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux)
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A23152317C8043BB3389B48A1744D5B8;1631.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11320 strings out of 479916
- 176217 string characters out of 5886642
- 528208 words of memory out of 5000000
- 27547 multiletter control sequences out of 15000+600000
- 548753 words of font info for 117 fonts, out of 8000000 for 9000
+ 11533 strings out of 479916
+ 178681 string characters out of 5886642
+ 532348 words of memory out of 5000000
+ 27655 multiletter control sequences out of 15000+600000
+ 549236 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,69p,2555b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,69p,2546b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 <k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (12 pages, 216069 bytes).
+Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (18 pages, 247157 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
- 49 named destinations out of 1000 (max. 500000)
- 16385 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 518 PDF objects out of 1000 (max. 8388607)
+ 478 compressed objects within 5 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 16577 words of extra memory for PDF output out of 17280 (max. 10000000)
 
