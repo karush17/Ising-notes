@@ -602,18 +602,8 @@ INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT k:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
 OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
+OUTPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf
 INPUT k:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
@@ -672,10 +662,6 @@ INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
-INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl
 INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux
 INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out
 INPUT c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.out

@@ -208,7 +208,7 @@ We select StarCraft II scenarios particularly for three reasons. Firstly, microm
 \end{proof}
 
 \begin{prop}{4}\label{four}
-    Policy gradient of the Ising spin objective consisting of $\sigma^{\pi_{i}}$  and $\sigma^{\pi_{i}}$ for any two levels $h_{i}$ and $h_{j}$ in the hierarchy $H$ with policies $\pi^{\theta}_{i}(a_{t}|s_{t})$ and $\pi^{\theta}_{j}(a_{t}|s_{t})$ respectively is bounded by the following 
+    Policy gradient of the Ising spin objective consisting of $\sigma^{\pi_{i}}$  and $\sigma^{\pi_{j}}$ for any two levels $h_{i}$ and $h_{j}$ in the hierarchy $H$ with policies $\pi^{\theta}_{i}(a_{t}|s_{t})$ and $\pi^{\theta}_{j}(a_{t}|s_{t})$ respectively is bounded as follows 
     \begin{gather}
         \nabla_{\theta}J(\theta) \leq \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})) + 2L\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber
     \end{gather}
@@ -228,6 +228,10 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
     \begin{gather}
         \nabla_{\theta} \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\sigma^{\pi_{i}}\sigma^{\pi_{j}}] \nonumber \\
         = \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\pi_{i}}\sigma^{\pi_{i}}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\pi_{j}}\sigma^{\pi_{j}}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber
+    \end{gather}
+    We now use the Lipschitz assumption in \autoref{assum} to approximate $\nabla_{\theta}\sigma_^{\pi_{i}} \leq L$. This leads to the following,
+    \begin{gather}
+        lnln
     \end{gather}
 
 \end{proof}
