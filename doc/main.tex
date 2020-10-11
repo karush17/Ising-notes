@@ -234,6 +234,17 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
         \leq \underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} L\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} L\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\
         = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{j}} \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \sigma^{\pi_{i}} \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
     \end{gather}
+    Moreover, we know that the spins $\sigma^{\pi_{i}},\sigma^{\pi_{j}} \in \{-1,1\}$ which indicates that $|\sigma^{\pi_{i}}|=1$ and $|\sigma^{\pi_{j}}|=1$.
+    \begin{gather}
+        \leq L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} |\sigma^{\pi_{j}}| \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + |\sigma^{\pi_{i}}| \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\       
+        = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
+    \end{gather}
+    The expression obtained allows us to construct the log policy gradients $\nabla_{\theta}\log\pi^{\theta}_{i}(a_{t}|s_{t})$ and $\nabla_{\theta}\log\pi^{\theta}_{j}(a_{t}|s_{t})$,
+    \begin{gather}
+        \leq L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{i}(a_{t}|s_{t})\frac{1}{\pi^{\theta}_{i}(a_{t}|s_{t})}\nabla_{\theta}\pi^{\theta}_{i}(a_{t}|s_{t}) + \pi^{\theta}_{j}(a_{t}|s_{t})\frac{1}{\pi^{\theta}_{j}(a_{t}|s_{t})}\nabla_{\theta}\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber \\       
+        = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{i}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{i}(a_{t}|s_{t}) + \pi^{\theta}_{j}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
+    \end{gather}
+    
 
 \end{proof}
 
