@@ -245,6 +245,15 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
         = L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{i}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{i}(a_{t}|s_{t}) + \pi^{\theta}_{j}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{j}(a_{t}|s_{t})] \nonumber        
     \end{gather}
     Since all levels in the hierarchy $H$ solve the same task, upon convergence of the system to the optimal policy $\pi^{\theta}_{*}(a_{t}|s_{t})$, policy distributions of each level would exhibit the same optimal convergence properties. This leads to safely conclude that each level in the hierarchy converges to an optimal policy such that $\pi^{\theta}_{1}(a_{t}|s_{t}) = \pi^{\theta}_{2}(a_{t}|s_{t}) = ...\pi^{\theta}_{N}(a_{t}|s_{t}) = \pi^{\theta}_{*}(a_{t}|s_{t})$. Thus, $\pi^{\theta}_{i}(a_{t}|s_{t}) = \pi^{\theta}_{j}(a_{t}|s_{t}) = \pi^{\theta}_{*}(a_{t}|s_{t}), \forall i,j \in \{1,2,...N\}$.
+    \begin{gather}
+        \leq L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{*}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{*}(a_{t}|s_{t}) + \pi^{\theta}_{*}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber \\
+        = 2L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{*}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber               
+    \end{gather}
+    which leads to the following bound,
+    \begin{gather}
+        \nabla_{\theta}\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] \leq 2L\underset{s_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{*}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{*}(a_{t}|s_{t})] \label{eq:bound}               
+    \end{gather}
+    Combining the bound in \autoref{eq:bound} with the original policy gradient in \autoref{eq:grad} gives us the result.
 
 \end{proof}
 
