@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  12 OCT 2020 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  12 OCT 2020 11:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -593,12 +593,6 @@ Overfull \hbox (16.4702pt too wide) detected at line 259
 []
  []
 
-
-Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 263.
-
-
-Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 263.
-
 (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl [13] [14] [15] [16] [17] [18]) [19] (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A23152317C8043BB3389B48A1744D5B8;1631.
@@ -619,10 +613,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  62i,13n,69p,2546b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 <k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (19 pages, 250286 bytes).
+Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (19 pages, 249925 bytes).
 PDF statistics:
- 531 PDF objects out of 1000 (max. 8388607)
- 490 compressed objects within 5 object streams
+ 529 PDF objects out of 1000 (max. 8388607)
+ 488 compressed objects within 5 object streams
  141 named destinations out of 1000 (max. 500000)
  16577 words of extra memory for PDF output out of 17280 (max. 10000000)
 
