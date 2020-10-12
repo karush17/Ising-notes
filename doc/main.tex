@@ -260,6 +260,7 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
     Combining the bound in \autoref{eq:bound} with the original policy gradient in \autoref{eq:grad} gives us the result.
 \end{proof}
 
+Note that \autoref{four} makes a strong Lipschitz assumption which may not hold true in practical scenarios, Moreover, the bound depends on optimal policy $\pi^{\theta}_{*}(a_{t}|s_{t})$ which is not observed during the agent's interactions with the environment. Hence, the bound obtained in \autoref{four} is not a tight one and intractable in nature.
 
 \bibliographystyle{abbrv} 
 \bibliography{main}
