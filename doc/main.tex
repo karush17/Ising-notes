@@ -128,7 +128,7 @@ The bound holds for all optimal policies $\pi^{\theta}_{*}(a_{t}|s_{t})$ in the 
     = \underset{s_{t},a_{t}}{\textbf{E}}[\frac{\pi^{\theta}_{i}(a_{t}|s_{t})\log \pi^{\theta}_{i}(a_{t}|s_{t})}{\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})}] \leq 1 \nonumber \\
     = \underset{s_{t},a_{t}}{\textbf{E}}[\frac{\pi^{\theta}_{i}(a_{t}|s_{t})}{\pi^{\theta}_{*}(a_{t}|s_{t})}\log(\pi^{\theta}_{i}(a_{t}|s_{t}) - \pi^{\theta}_{*}(a_{t}|s_{t}))] \leq 1 \label{eq:connect}    
 \end{gather}
-\autoref{eq:connect} connects the optimal oplicy $\pi^{\theta}_{*}(a_{t}|s_{t})$ to the policy of level $i$, $\pi^{\theta}_{i}(a_{t}|s_{t})$. 
+\autoref{eq:connect} connects the optimal oplicy $\pi^{\theta}_{*}(a_{t}|s_{t})$ to the policy of level $i$, $\pi^{\theta}_{i}(a_{t}|s_{t})$. The expression takes the form of an Importance Ratio \cite{sutton,ppo} with $\pi^{\theta}_{i}(a_{t}|s_{t})$ being the behavioral policy and $\pi^{\theta}_{*}(a_{t}|s_{t})$ as the target distrubtion which the hierarchy level $i$ aims to approximate. As the behavioral policy $\pi^{\theta}_{i}(a_{t}|s_{t})$ reaches the optimal policy $\pi^{\theta}_{*}(a_{t}|s_{t})$, the ratio approximates to 1 with the log term steeping towards a high negative value. 
 
 \section{Implementation Details}
 This section highlights the implementation details for the Ising networks framework when combined with different RL methods. Corresponind to each setting, we first discuss the baseline implementations and their hyperparameters followed by the details of the hierarchical Ising networks. 
