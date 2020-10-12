@@ -262,7 +262,16 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
     Addition of levels in the hierarchy improves the estimate of mutual information between the primary and terminal levels in expectation.
 \end{prop}
 \begin{proof}
-
+    We begin by considering the mutual information between the policies of the primary level $\pi^{\theta}_{1}(a_{t}|s_{t})$ and the terminal level $\pi^{\theta}_{N}(a_{t}|s_{t})$,
+    \begin{gather}
+        I(\pi^{\theta}_{1}(a_{t}|s_{t});\pi^{\theta}_{N}(a_{t}|s_{t})) = KL(\pi^{\theta}_{1}(a_{t}|s_{t})||\pi^{\theta}_{1}(a_{t}|s_{t}).\pi^{\theta}_{N}(a_{t}|s_{t})) \nonumber \\
+        = \sum_{a_{t}}\pi^{\theta}_{1}(a_{t}|s_{t})\log\frac{\pi^{\theta}_{1}(a_{t}|s_{t})}{\pi^{\theta}_{1}(a_{t}|s_{t})\pi^{\theta}_{N}(a_{t}|s_{t})} \nonumber \\
+        = - \sum_{a_{t}}\pi^{\theta}_{1}(a_{t}|s_{t})\log\pi^{\theta}_{N}(a_{t}|s_{t}) \nonumber
+    \end{gather}
+    However, $\pi^{\theta}_{N}(a_{t}|s_{t})$ depends on previous levels in the hierarchy. Decomposing the policy into its primitives gives us the following,
+    \begin{gather}
+    I(\pi^{\theta}_{1}(a_{t}|s_{t});\pi^{\theta}_{N}(a_{t}|s_{t})) = - \sum_{a_{t}} \pi^{\theta}_{1}(a_{t}|s_{t}) \log(\pi^{\theta}_{N}(a_{t}|s_{t}))
+    \end{gather}
 \end{proof}
 
 
