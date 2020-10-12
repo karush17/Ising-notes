@@ -210,7 +210,7 @@ We select StarCraft II scenarios particularly for three reasons. Firstly, microm
 \begin{prop}{4}\label{four}
     Policy gradient of the Ising spin objective consisting of $\sigma^{\pi_{i}}$  and $\sigma^{\pi_{j}}$ for any two levels $h_{i}$ and $h_{j}$ in the hierarchy $H$ with policies $\pi^{\theta}_{i}(a_{t}|s_{t})$ and $\pi^{\theta}_{j}(a_{t}|s_{t})$ respectively is bounded as follows 
     \begin{gather}
-        \nabla_{\theta}J(\theta) \leq \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})) + 2L\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber
+        \nabla_{\theta}J(\theta) \leq \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})) + 2L(N-1)\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber
     \end{gather}
     Here, $L$ is a Lipschitz constant and $\pi^{\theta}_{*}(a_{t}|s_{t})$ is the optimal policy adopted by the hierarchy at convergence.
 \end{prop}
@@ -251,11 +251,11 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
     \end{gather}
     which leads to the following bound,
     \begin{gather}
-        \nabla_{\theta}\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] \leq 2L\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \pi^{\theta}_{*}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{*}(a_{t}|s_{t})] \label{eq:bound}               
+        \nabla_{\theta}\underset{s_{t},a_{t}}{\textbf{E}}[\sum_{i,j} \sigma^{\pi_{i}}\sigma^{\pi_{j}}] \leq 2L\underset{s_{t},a_{t}}{\textbf{E}}[(N-1) \pi^{\theta}_{*}(a_{t}|s_{t})\nabla_{\theta}\log\pi^{\theta}_{*}(a_{t}|s_{t})] \label{eq:bound}               
     \end{gather}
     Thus,
     \begin{gather}
-        \nabla_{\theta}J(\theta) \leq \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})) + 2L\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber
+        \nabla_{\theta}J(\theta) \leq \underset{s_{t},a_{t}}{\textbf{E}}[\nabla_{\theta}(\log \pi^{\theta}_{i}(a_{t}|s_{t})(Q^{\pi}(s_{t},a_{t}) + b^{\theta}(s_{t})) + 2L(N-1)\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber
     \end{gather}
     Combining the bound in \autoref{eq:bound} with the original policy gradient in \autoref{eq:grad} gives us the result.
 \end{proof}
