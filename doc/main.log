@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  12 OCT 2020 13:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  12 OCT 2020 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,55 +555,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[4] [5] [6]
+[4] [5] [6] [7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
-Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 117.
+ []
 
-[7]
-
-Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 131.
-
-[8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
- []
-
-[11]
-Overfull \hbox (13.82219pt too wide) in paragraph at lines 209--210
+Overfull \hbox (13.82219pt too wide) in paragraph at lines 192--193
 [][]\OT1/cmr/bx/n/10 Proposition 3. []\OT1/cmr/m/it/10 (-20) For a given agent with $\OML/cmm/m/it/10 N$ \OT1/cmr/m/it/10 (-20) lev-els in the hi-er-ar-chy $\OML/cmm/m/it/10 H \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 h[]; h[]; ::; h[]\OMS/cmsy/m/n/10 g$
  []
 
 
-Overfull \hbox (4.19792pt too wide) detected at line 221
+Overfull \hbox (4.19792pt too wide) detected at line 204
 []
  []
 
-[12]
-Overfull \hbox (50.59512pt too wide) detected at line 229
+[11]
+Overfull \hbox (50.59512pt too wide) detected at line 212
 []
  []
 
 
-Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 247.
+Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 230.
 
 
-Overfull \hbox (17.37367pt too wide) in paragraph at lines 256--258
+Overfull \hbox (17.37367pt too wide) in paragraph at lines 239--241
 \OT1/cmr/m/n/10 (-20) The ex-pres-sion ob-tained al-lows us to con-struct the log pol-icy gra-di-ents $\OMS/cmsy/m/n/10 r[] [] \OML/cmm/m/it/10 ^^Y[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 (-20) )$
  []
 
-[13]
-Overfull \hbox (50.59512pt too wide) detected at line 274
+[12]
+Overfull \hbox (50.59512pt too wide) detected at line 257
 []
  []
 
+
+Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 264.
+
+[13]
+
+Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 278.
+
 (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.bbl [14] [15] [16] [17] [18] [19]) [20] (c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A23152317C8043BB3389B48A1744D5B8;1631.
+(rerunfilecheck)             Checksum: E2CF77125EAAE063350C7A9CC73A223A;1631.
 
 
 LaTeX Warning: There were undefined references.
@@ -615,13 +614,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  11543 strings out of 479916
  178787 string characters out of 5886642
- 532530 words of memory out of 5000000
+ 531532 words of memory out of 5000000
  27659 multiletter control sequences out of 15000+600000
  549236 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,69p,2546b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 <k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (20 pages, 254533 bytes).
+Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (20 pages, 254048 bytes).
 PDF statistics:
  542 PDF objects out of 1000 (max. 8388607)
  500 compressed objects within 5 object streams
