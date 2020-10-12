@@ -120,9 +120,13 @@ The connection between spin values and policy $\pi^{\theta}_{i}(a_{t}|s_{t})$ fo
 \end{gather} 
 The bound holds for all optimal policies $\pi^{\theta}_{*}(a_{t}|s_{t})$ in the levels. This leads us to safely imply that for any level $i$ which has not achieved optimality,
 \begin{gather}
-    2L(N-1)\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{i}(a_{t}|s_{t})\log \pi^{\theta}_{i}(a_{t}|s_{t})] \leq 2L(N-1)\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})] \nonumber \label{eq:optimal}
+    2L(N-1)\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{i}(a_{t}|s_{t})\log \pi^{\theta}_{i}(a_{t}|s_{t})] \leq 2L(N-1)\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})]  \label{eq:optimal}
 \end{gather} 
 \autoref{eq:optimal} indicates that the optimal configuration for the spin system is the one which exhibits optimal behavior using the policy $\pi^{\theta}_{*}(a_{t}|s_{t})$. Any other configuration for spin $i$ in level $h_{i}$ would yield a lower value of the expected likelihood gradient. This argument can be further strengthened and a concise expression which ties optimality to spins of hierarchy levels can be obtained as followed,
+\begin{gather}
+    \frac{\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{i}(a_{t}|s_{t})\log \pi^{\theta}_{i}(a_{t}|s_{t})]}{\underset{s_{t},a_{t}}{\textbf{E}}[\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})]} \leq 1 \nonumber \\
+    = \underset{s_{t},a_{t}}{\textbf{E}}[\frac{\pi^{\theta}_{i}(a_{t}|s_{t})\log \pi^{\theta}_{i}(a_{t}|s_{t})}{\pi^{\theta}_{*}(a_{t}|s_{t})\log \pi^{\theta}_{*}(a_{t}|s_{t})}] \leq 1 \nonumber
+\end{gather}
 
 \section{Implementation Details}
 This section highlights the implementation details for the Ising networks framework when combined with different RL methods. Corresponind to each setting, we first discuss the baseline implementations and their hyperparameters followed by the details of the hierarchical Ising networks. 
