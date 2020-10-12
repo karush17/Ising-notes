@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  12 OCT 2020 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  12 OCT 2020 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -555,41 +555,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
-[4] [5] [6] [7] [8]
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[4] [5] [6]
 
- []
+Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 117.
 
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+[7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 [10]
-Overfull \hbox (13.82219pt too wide) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+
+Overfull \hbox (13.82219pt too wide) in paragraph at lines 203--204
 [][]\OT1/cmr/bx/n/10 Proposition 3. []\OT1/cmr/m/it/10 (-20) For a given agent with $\OML/cmm/m/it/10 N$ \OT1/cmr/m/it/10 (-20) lev-els in the hi-er-ar-chy $\OML/cmm/m/it/10 H \OT1/cmr/m/n/10 (-20) = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 h[]; h[]; ::; h[]\OMS/cmsy/m/n/10 g$
  []
 
 
-Overfull \hbox (4.19792pt too wide) detected at line 206
+Overfull \hbox (4.19792pt too wide) detected at line 215
 []
  []
 
 [11]
-Overfull \hbox (50.59512pt too wide) detected at line 214
+Overfull \hbox (50.59512pt too wide) detected at line 223
 []
  []
 
 
-Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 232.
+Package hyperref Warning: No autoref name for `innercustomgeneric' on input line 241.
 
-
-Overfull \hbox (17.37367pt too wide) in paragraph at lines 241--243
+[12]
+Overfull \hbox (17.37367pt too wide) in paragraph at lines 250--252
 \OT1/cmr/m/n/10 (-20) The ex-pres-sion ob-tained al-lows us to con-struct the log pol-icy gra-di-ents $\OMS/cmsy/m/n/10 r[] [] \OML/cmm/m/it/10 ^^Y[]\OT1/cmr/m/n/10 (-20) (\OML/cmm/m/it/10 a[]\OMS/cmsy/m/n/10 j\OML/cmm/m/it/10 s[]\OT1/cmr/m/n/10 (-20) )$
  []
 
-[12]
-Overfull \hbox (50.59512pt too wide) detected at line 259
+
+Overfull \hbox (50.59512pt too wide) detected at line 268
 []
  []
 
@@ -605,18 +609,18 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11538 strings out of 479916
- 178731 string characters out of 5886642
- 532426 words of memory out of 5000000
- 27657 multiletter control sequences out of 15000+600000
+ 11539 strings out of 479916
+ 178743 string characters out of 5886642
+ 532474 words of memory out of 5000000
+ 27658 multiletter control sequences out of 15000+600000
  549236 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,69p,2546b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,13n,69p,2546b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 <k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (19 pages, 249997 bytes).
+Output written on "c:/Users/Karush Suri/Desktop/Ising/Ising-notes/doc/main.pdf" (19 pages, 251366 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 488 compressed objects within 5 object streams
+ 531 PDF objects out of 1000 (max. 8388607)
+ 490 compressed objects within 5 object streams
  141 named destinations out of 1000 (max. 500000)
  16577 words of extra memory for PDF output out of 17280 (max. 10000000)
 
