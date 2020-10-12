@@ -270,8 +270,12 @@ Before proving th result, we formally state the Lipshitz assumption \cite{lipsch
     \end{gather}
     However, $\pi^{\theta}_{N}(a_{t}|s_{t})$ depends on previous levels in the hierarchy. Decomposing the policy into its primitives gives us the following,
     \begin{gather}
-    I(\pi^{\theta}_{1}(a_{t}|s_{t});\pi^{\theta}_{N}(a_{t}|s_{t})) = - \sum_{a_{t}} \pi^{\theta}_{1}(a_{t}|s_{t}) \log(\pi^{\theta}_{N}(a_{t}|s_{t}))
+    I(\pi^{\theta}_{1}(a_{t}|s_{t});\pi^{\theta}_{N}(a_{t}|s_{t})) = - \sum_{a_{t}} \pi^{\theta}_{1}(a_{t}|s_{t}) \log(\pi^{\theta}_{N}(a_{t}|s_{t})\pi^{\theta}_{N-1}(a_{t}|s_{t})...\pi^{\theta}_{1}(a_{t}|s_{t})) \nonumber \\
+    I(\pi^{\theta}_{1}(a_{t}|s_{t});\pi^{\theta}_{N}(a_{t}|s_{t})) = - \sum_{a_{t}} \pi^{\theta}_{1}(a_{t}|s_{t}) \log\prod_{n=1}^{N}(\pi^{\theta}_{n}(a_{t}|s_{t})) \nonumber \\
+    I(\pi^{\theta}_{1}(a_{t}|s_{t});\pi^{\theta}_{N}(a_{t}|s_{t})) = - \sum_{a_{t}} \pi^{\theta}_{1}(a_{t}|s_{t}) \sum_{n=1}^{N}\log(\pi^{\theta}_{n}(a_{t}|s_{t})) \nonumber \\
+    I(\pi^{\theta}_{1}(a_{t}|s_{t});\pi^{\theta}_{N}(a_{t}|s_{t})) = - \underset{\pi^{\theta}_{1}}{\textbf{E}}[\sum_{n=1}^{N}\log(\pi^{\theta}_{n}(a_{t}|s_{t}))] \label{eq:info}
     \end{gather}
+    We now add a new level $h_{N+1}$ in the hierarchy $H$ and repeat the steps 
 \end{proof}
 
 
