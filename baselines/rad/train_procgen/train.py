@@ -24,7 +24,7 @@ def main():
     nminibatches = 8
     ppo_epochs = 3
     clip_range = .2
-    timesteps_per_proc = 10_000_000 # 200_000_000: hard 25_000_000: easy
+    timesteps_per_proc = 5_000_000 # 200_000_000: hard 25_000_000: easy
     use_vf_clipping = True
     LOG_DIR = './log/'
 
