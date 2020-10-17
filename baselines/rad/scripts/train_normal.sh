@@ -1,0 +1,1 @@
+python -m train_procgen.train --env_name $1 --num_levels 100 --exp_name $2 
