@@ -5,7 +5,7 @@
 #######################################################################
 
 from deep_rl import *
-
+import argparse, os
 
 # DQN
 def dqn_feature(**kwargs):
@@ -618,6 +618,9 @@ def td3_continuous(**kwargs):
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description='PyTorch Q-Learning Benchmark')
+    parser.add_argument('--game', type=str, default="BreakoutNoFrameSkip-v4", help='Game')    
+    args = parser.parse_args()
     mkdir('log')
     mkdir('tf_log')
     set_one_thread()
@@ -642,8 +645,7 @@ if __name__ == '__main__':
     # ddpg_continuous(game=game)
     # td3_continuous(game=game)
 
-    game = 'AirRaidNoFrameskip-v4'
-    dqn_pixel(game=game, n_step=1, replay_cls=UniformReplay, async_replay=False)
+    dqn_pixel(game=args.game, n_step=1, replay_cls=UniformReplay, async_replay=False)
     # quantile_regression_dqn_pixel(game=game)
     # categorical_dqn_pixel(game=game)
     # rainbow_pixel(game=game, async_replay=False)
